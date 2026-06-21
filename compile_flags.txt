@@ -1,0 +1,15 @@
+-gdwarf-4
+-O0
+-fno-omit-frame-pointer
+-fsanitize=address
+-fsanitize=undefined
+-DLOCAL
+-std=c++23
+-Wall
+-Wextra
+-Wpedantic
+-Wfloat-equal
+-Wconversion
+-Wshift-overflow
+-Wcast-qual
+-Wcast-align

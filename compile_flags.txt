@@ -5,6 +5,11 @@
 -fsanitize=undefined
 -DLOCAL
 -std=c++23
+-nostdinc++
+-isystem/opt/homebrew/opt/llvm/include/c++/v1
+-L/opt/homebrew/opt/llvm/lib/c++
+-Wl,-rpath,/opt/homebrew/opt/llvm/lib/c++
+-lc++
 -Wall
 -Wextra
 -Wpedantic
@@ -13,3 +18,5 @@
 -Wshift-overflow
 -Wcast-qual
 -Wcast-align
+-isystem/usr/local/include/fakebits
+-isystem/usr/local/include

@@ -1,11 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+using ll = long long;
+using vi = vector<int>;
+using pii = pair<int, int>;
+
 #ifdef LOCAL
 #include <dbg.hpp>
 #else
-#define dbg(...)
-#define dbgArr(...)
+#define debug(...)
+#define debugArr(...)
 #endif
 
 void solve(){
